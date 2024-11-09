@@ -670,6 +670,7 @@ progress {
 
 .custom-tx-indent-1 {
   text-indent: 25px;
+  text-align: justify;
 }
 
 .img-fluid {
@@ -1323,6 +1324,7 @@ progress {
 @media (min-width: 992px) {
   .custom-lg-tx-indent-1 {
     text-indent: 50px;
+    text-align: justify;
   }
   .custom-fs-lg-1 {
     font-size: 2rem; /*calc(0.5rem + 1.5vw);*/
