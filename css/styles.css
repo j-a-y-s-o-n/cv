@@ -119,6 +119,11 @@ hr {
   opacity: 0.25;
 }
 
+.desc li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 h6,
 .h6,
 h5,
@@ -633,10 +638,38 @@ progress {
   content: "— ";
 }
 
-.custom-fs-1 {
-  font-size: calc(0.5rem + 1.5vw);
+.custom-fs-0 {
+  font-size: 1rem; /*calc(0.5rem + 1.5vw);*/
   font-weight: 200;
   line-height: 1.2;
+}
+
+.custom-fs-1 {
+  font-size: 1.75rem; /*calc(0.5rem + 1.5vw);*/
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+.custom-fs-2 {
+  font-size: calc(0.4rem + 1.5vw);
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+.custom-fs-3 {
+  font-size: calc(0.6rem + 1.5vw);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.custom-fs-4 {
+  font-size: calc(0.3rem + 1.5vw);
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+.custom-tx-indent-1 {
+  text-indent: 25px;
 }
 
 .img-fluid {
@@ -1288,6 +1321,14 @@ progress {
   }
 }
 @media (min-width: 992px) {
+  .custom-lg-tx-indent-1 {
+    text-indent: 50px;
+  }
+  .custom-fs-lg-1 {
+    font-size: 2rem; /*calc(0.5rem + 1.5vw);*/
+    font-weight: 200;
+    line-height: 1.2;
+  }
   .col-lg {
     flex: 1 0 0%;
   }
@@ -2868,6 +2909,14 @@ textarea.form-control.is-invalid {
 .was-validated .form-check-input:invalid ~ .form-check-label,
 .form-check-input.is-invalid ~ .form-check-label {
   color: #dc3545;
+}
+
+.clickable-text {
+  color: #166ed3;
+}
+
+.clickable-text:hover {
+  color: #3ebada;
 }
 
 .form-check-inline .form-check-input ~ .invalid-feedback {
@@ -7877,6 +7926,11 @@ fieldset:disabled .btn {
 .mx-5 {
   margin-right: 3rem !important;
   margin-left: 3rem !important;
+}
+
+.mx-6 {
+  margin-right: 5rem !important;
+  margin-left: 5rem !important;
 }
 
 .mx-auto {
